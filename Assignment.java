@@ -3,7 +3,6 @@ import java.util.*;
 
 public class Assignment {
     public static void main(String[] args) {
-		/*
         // Output for Question 1: Displaying Greetings
         System.out.println("\nQuestion 1: Displaying Greetings in three lines.");
         displayGreetings();
@@ -149,7 +148,7 @@ public class Assignment {
         System.out.println("Question 27: Digit Sum and Product");
         calculateDigitSumProduct();
         System.out.println("\n\n");
-		*/
+		
 		// Question 28a
         System.out.println("Question 28a: Check prime number");
         isPrimeNumber();
@@ -230,7 +229,6 @@ public class Assignment {
         findDuplicateLetters();
         System.out.println("\n\n");
 }
-	/*
     // Question 1: Function to display greetings
     public static void displayGreetings() {
         System.out.println("Hello!");
@@ -649,8 +647,7 @@ public class Assignment {
         System.out.println("Product of digits: " + product);
     }
 
-	*/
-	    // Question 28a: Check if number is prime (helper function)
+	// Question 28a: Check if number is prime (helper function)
     private static boolean isPrime(int num) {
         if (num <= 1) return false;
         for (int i = 2; i <= Math.sqrt(num); i++) {
